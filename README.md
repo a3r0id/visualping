@@ -2,7 +2,7 @@
 ## Basic Usage:
 [1] - Basic: python visualping.py example.com
   
-[2] - Advanced: python visualping.py example.com <Probe_Amount> <Sleep (In Seconds)> <Background_Color> <0=No Grid, 1=Grid>
+[2] - Advanced: python visualping.py example.com <Probe_Count> <Sleep (In Seconds)> <Background_Color> <0=No Grid, 1=Grid>
 
 [3] - Recommended: python visualping.py example.com 24 .1 black 1
 
