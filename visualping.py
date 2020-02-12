@@ -3,7 +3,7 @@
 """
 LICENSE
 
-Copyright 2020 Chad G. [Aerobot Development]
+Copyright 2020 [Aerobot Development]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
 to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
@@ -17,6 +17,16 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMA
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
+
+#Meta
+__author__ = "AeroBot Development"
+__copyright__ = "Copyright 2020, Creative Commons"
+__credits__ = ["AeroBot Development"]
+__license__ = "MIT, CC"
+__version__ = "1.0.0"
+__maintainer__ = "AeroBot"
+__email__ = "aerobotprofessional@gmail.com"
+__status__ = "Open-Source"
 
 import matplotlib.pyplot as plt
 import subprocess
@@ -109,3 +119,4 @@ except: b_grid = False
 print(f"Pinging {host} @ {sleep_} Seconds Per Break  x {amount}...")    
     
 main(host, amount, sleep_, bg_color, b_grid)    
+
