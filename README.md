@@ -17,4 +17,4 @@
 > Ping will run in background but tends to steal focus of windows explorer which my cause issues if multi-tasking. Trying to fix this asap.
 
 # Photo-Documentation
-[!](https://cdn.discordapp.com/attachments/501081545579167747/677266467770859568/1_1_1_1.png)
+![](https://cdn.discordapp.com/attachments/501081545579167747/677266467770859568/1_1_1_1.png)
