@@ -10,7 +10,7 @@
 > matplotlib==3.1.3
 
 ## Notes:
-> Tested with Python 3.7.5 on Windows NT 10.0; v.1909 x64
+> PASSING with Python 3.7.5 on Windows NT 10.0; v.1909 x64
 
 > Linux Is FAILING! I think there is an issue with calling ping executable, mabye perms issue.
 
