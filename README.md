@@ -10,7 +10,7 @@
 > matplotlib==3.1.3
 
 ## Notes:
-> Tested with Python 3.7.5 on Windows NT 10.0; x64
+> Tested with Python 3.7.5 on Windows NT 10.0; v.1909 x64
 
 > Ping will run in background but tends to steal focus of windows explorer which my cause issues if multi-tasking. Trying to fix this asap.
 
