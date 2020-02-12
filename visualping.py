@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin python3
 
 """
 LICENSE
@@ -33,10 +33,23 @@ import subprocess
 from time import sleep
 from tkinter import messagebox
 from sys import argv
+from os import name, system
 #FOR::DEPENDENCIES::RUN-># from os import system;system('pip install matplotlib')
 
+#Detect OS
+if name == '\x6e\x74': oss = 0
+else: oss = 1
+    
+
 def ping(host):
-    ping = subprocess.run(["\x70\x69\x6e\x67", host], stdout = subprocess.PIPE, stderr = subprocess.PIPE, universal_newlines=True, shell=False, creationflags=0x00000008)
+    global oss
+    if oss == 0: ping = subprocess.run(["\x70\x69\x6e\x67",host], stdout = subprocess.PIPE, stderr = subprocess.PIPE, universal_newlines=True, shell=False, creationflags=0x00000008)
+    else:
+        try:
+            ping = subprocess.run(["\x70\x69\x6e\x67","\x2d\x63","\x31",host], stdout = subprocess.PIPE, stderr = subprocess.PIPE, universal_newlines=True, shell=False)
+        except Exception as r:
+            xx = input(f"Fatal Error: {r}")
+            exit()
     try:
         ms = int(ping.stdout.split("\x74\x69\x6d\x65\x3d")[1].split("\x6d\x73")[0])
     except:
@@ -119,4 +132,3 @@ except: b_grid = False
 print(f"Pinging {host} @ {sleep_} Seconds Per Break  x {amount}...")    
     
 main(host, amount, sleep_, bg_color, b_grid)    
-
