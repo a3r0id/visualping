@@ -33,7 +33,6 @@ import subprocess
 from time import sleep
 from tkinter import messagebox
 from os import name, system, getcwd
-from ezml import EZML
 from tkinter import *
 import tkinter as tk
 #FOR::DEPENDENCIES::RUN-># from os import system;system('pip install matplotlib')
