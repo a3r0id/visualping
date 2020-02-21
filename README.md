@@ -2,9 +2,6 @@
 ## Basic Usage:
 [1] - Usage: python visualping.py
 
-## Dependencies:
-> matplotlib==3.1.3
-
 ## Notes:
 > PASSING with Python 3.7.5 on Windows NT 10.0; v.1909 x64
 
