@@ -35,7 +35,6 @@ from tkinter import messagebox
 from os import name, system, getcwd
 from tkinter import *
 import tkinter as tk
-#FOR::DEPENDENCIES::RUN-># from os import system;system('pip install matplotlib')
 
 #Detect OS
 if name == '\x6e\x74': oss = 0
