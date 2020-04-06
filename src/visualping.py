@@ -207,8 +207,7 @@ def initialize(message=None):
     
     if message != None: tk.Label(master, text=f"Logging:\n{message}",justify=LEFT, bg="grey", fg="red").grid(row=9, column=1)
         
-    tk.Label(master, text="""===============""", bg="grey"
-             ).grid(row=10)
+    tk.Label(master, text="""===============""", bg="grey").grid(row=10)
 
     
 master = tk.Tk()
