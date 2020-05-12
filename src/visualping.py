@@ -83,7 +83,7 @@ def main(host, amount, sleep_in_seconds, bg_color, b_grid, b_label, lbl_clr):
     sleep_in_seconds = float(sleep_in_seconds)
 
     #Prepare both lists
-    for x in range(0, amount  + 1): probe.append(x)
+    for x in range(0, amount + 1): probe.append(x)
     for x in range(0, amount): timer.append(0.00)
     probe.pop(0)
 
