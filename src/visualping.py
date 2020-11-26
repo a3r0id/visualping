@@ -1,9 +1,7 @@
 #!/usr/bin python3
 
 """
-LICENSE
-
-Copyright 2020 [Aerobot Labs]
+MIT LICENSE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"),
 to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense,
@@ -24,8 +22,8 @@ __copyright__ = "Copyright 2020, Creative Commons"
 __credits__ = ["AeroBot Development"]
 __license__ = "MIT, CC"
 __version__ = "1.0.0"
-__maintainer__ = "AeroBot"
-__email__ = "aerobotprofessional@gmail.com"
+__maintainer__ = "Host-Info"
+__email__ = "support@host-info.net"
 __status__ = "Open-Source"
 
 import matplotlib.pyplot as plt
