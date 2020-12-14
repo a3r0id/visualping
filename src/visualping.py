@@ -16,15 +16,6 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
 
-#Meta
-__author__ = "AeroBot Development"
-__copyright__ = "Copyright 2020, Creative Commons"
-__credits__ = ["AeroBot Development"]
-__license__ = "MIT, CC"
-__version__ = "1.0.0"
-__maintainer__ = "Host-Info"
-__email__ = "support@host-info.net"
-__status__ = "Open-Source"
 
 import matplotlib.pyplot as plt
 import subprocess
